@@ -1,13 +1,15 @@
  
 Welcome to SpecFlow and Coded UI integration!
+Prerequisites:
+- Go to "Tools" folder to install dependencies.
 
-1. Go to "CodedUITestProject7" sample VS2012 project with the Specflow and Coded UI integration sample demo
+1. Go to "CodedUITestProject7" sample VS2012 project with the Specflow and Coded UI integration.
 2. Go to "Presentation" folder to review the PDF document related to the presentation.
 3. Follow the minimal steps to setup Specflow with the below steps:
   
 First Steps
   
-This section guides you through the first steps of setting up your SpecFlow project and creating your first scenario. In the example, we will use SpecFlow with NUnit, but you can choose from many other test execution frameworks, including SpecFlow+Runner, which provides specialized execution features, Visual Studio Test Window and Team Foundation Server (TFS) Build integration for SpecFlow.
+This section guides you through the first steps of setting up your SpecFlow project and creating your first scenario. In the example, we will use SpecFlow with NUnit, but you can choose from many other test execution frameworks, including SpecFlow+Runner, which provides specialized execution features, Build integration for SpecFlow.
 
 Get your first SpecFlow test running in just a few steps:
 Step 1 
@@ -28,19 +30,12 @@ PM> Install-Package SpecFlow.NUnit
 Step 3 
 Add your first feature file
 
- 
-
-
 We are writing yet another StackOverflow clone: SpecOverflow
-
-
 
 Add a new feature file to the project
 
 Step 4 
 Describe the first scenario in your application
-
-
 
 The first scenario
 
@@ -50,23 +45,18 @@ Generate step definition skeletons
 
 Cool new feature in v1.9!
 
-
-
 Invoke step definition skeleton generation from the context menu
 
 Step 6 
 Run your test – it is not green yet
 
-
 Use your favorite test runner, like the VS2012 test runner below; but it works well with ReSharper too…
-
 
 
 Running the test returns an inconclusive result
 
 Step 7 
 Implement automation & application logic until the test is green
-
 
 
 The test finally passes
